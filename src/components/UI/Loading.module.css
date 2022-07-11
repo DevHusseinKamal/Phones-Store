@@ -1,0 +1,16 @@
+.loading {
+  width: 2rem;
+  height: 2rem;
+  border: 3px solid var(--mainYellow);
+  border-left-color: transparent;
+  animation: roll 1s infinite linear;
+}
+.p {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+@keyframes roll {
+  to {
+    transform: rotate(360deg);
+  }
+}
